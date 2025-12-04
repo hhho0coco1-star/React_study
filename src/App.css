@@ -5,3 +5,14 @@
 .font-red {
   color: red;
 }
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.textItem {
+    padding-left: 15px;
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+}

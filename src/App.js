@@ -5,14 +5,18 @@ import State01 from './components/State01';
 import State02 from './components/State02';
 import Export01 from './components/Export01';
 import Quiz01 from './quiz/Quiz01';
+import Quiz03 from './quiz/Quiz03';
+import NewsBlog from './newsBlog/NewsBlog';
 
 function App() {
 
-  // return <Basic01 />
+    // return <Basic01 />
     // return <State01/>;
     // return <State02/>;
     // return <Export01/>;
-    return <Quiz01 />;
+    // return <Quiz01 />;
+    // return <Quiz03 />;
+    return <NewsBlog />;
 
   // return (
   //   <div className="App">
