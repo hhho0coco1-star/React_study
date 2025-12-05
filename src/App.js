@@ -7,6 +7,8 @@ import Export01 from './components/Export01';
 import Quiz01 from './quiz/Quiz01';
 import Quiz03 from './quiz/Quiz03';
 import NewsBlog from './newsBlog/NewsBlog';
+import Quiz04 from './quiz/Quiz04';
+import Quiz05 from './quiz/Quiz05';
 
 function App() {
 
@@ -16,7 +18,9 @@ function App() {
     // return <Export01/>;
     // return <Quiz01 />;
     // return <Quiz03 />;
-    return <NewsBlog />;
+    // return <NewsBlog />;
+    // return <Quiz04 />;
+    return <Quiz05 />;
 
   // return (
   //   <div className="App">

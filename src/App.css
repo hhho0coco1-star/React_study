@@ -2,13 +2,14 @@
   text-align: center;
 }
 
-.font-red {
+/* .font-red {
   color: red;
-}
+} */
 
 .title {
     font-size: 2rem;
     font-weight: bold;
+    color: black;
 }
 
 .textItem {
