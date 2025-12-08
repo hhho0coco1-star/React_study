@@ -9,6 +9,8 @@ import Quiz03 from './quiz/Quiz03';
 import NewsBlog from './newsBlog/NewsBlog';
 import Quiz04 from './quiz/Quiz04';
 import Quiz05 from './quiz/Quiz05';
+import Quiz06 from './quiz/Quiz06';
+import Quiz06_copy from './quiz/Quiz06_copy';
 
 function App() {
 
@@ -20,7 +22,9 @@ function App() {
     // return <Quiz03 />;
     // return <NewsBlog />;
     // return <Quiz04 />;
-    return <Quiz05 />;
+    // return <Quiz05 />;
+    return <Quiz06 />;
+    // return <Quiz06_copy/>;
 
   // return (
   //   <div className="App">
