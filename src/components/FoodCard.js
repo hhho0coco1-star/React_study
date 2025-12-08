@@ -1,7 +1,10 @@
 import { Button, Card} from "react-bootstrap";
 import food1 from '../foodmarket/img/food1.jpg';
+import { useNavigate } from "react-router";
 
 export default function FoodCard({food, foods, index}) {
+
+    let navigate = useNavigate();
 
     return (
 
@@ -11,7 +14,9 @@ export default function FoodCard({food, foods, index}) {
                 <Card.Title>{food.title}</Card.Title>
                 <Card.Text>{foods[index].content}</Card.Text>
                 <Card.Text>{food.price}</Card.Text>
-                <Button variant="primary">상세보기</Button>
+                <Button variant="primary" onClick={()=> {
+                    navigate('/detail/' + food.id);
+                }}>상세보기</Button>
             </Card.Body>
         </Card>
 
